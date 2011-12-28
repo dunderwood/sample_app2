@@ -41,3 +41,74 @@ a:hover {
 a:visited {
   color: #069;
 }
+
+/* Navigation */
+
+nav {
+	float: right;
+}
+
+nav {
+	background-color: white;
+	padding: 0 0.7em;
+	white-space: nowrap;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: #09c;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sign up bottom */
+
+a.signup_button {
+  margin-left: auto; /*These two lines together center the button*/
+  margin-right: auto; /*These two lines together center the button*/
+  display: block; /* Creates a clickable block link */
+  text-align: center; /* Aligns text in center of button/block */
+  width: 190px; /* Specifies the width of the button. Otherwise button is width of container*/
+  color: #fff; /* Sets the font color of the clickable block */
+  background: #006400; /* Sets the background color of the clickable block */
+  font-size: 150%; /* Increases the size of the font (also makes block taller)*/
+  font-weight: bold; /* Makes block font bold */
+  padding: 20px; /* Increase the size of the block by 20pix on each side */
+}
+
+/* Round corners */
+
+.round {
+  -moz-border-radius:    10px; /* not sure what this does based on tutorial 5.1.2, but looks like a mozilla consideration */
+  -webkit-border-radius: 10px; /* this was sufficient to round all corners in safari */
+  border-radius:         10px; /* this was sufficient to round all corners in safari */
+}
+
+footer {
+  text-align: center; /* Aligns the text of the footer to the center of the page */
+  margin-top: 10px; /* Puts 10pix of space between the footer and main body */
+  width: 710px; /* Sets width of the footer to 710 (same as container) */
+  margin-left: auto; /*These two lines together center the button*/
+  margin-right: auto; /*These two lines together center the button*/
+}
+
+footer nav {
+  float: none;
+}
